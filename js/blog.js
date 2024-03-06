@@ -165,6 +165,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function searchProduct(event) {
     // Tiến hành function bằng nút enter
+    event.preventDefault()
     if (event && event.key !== "Enter") {
       return;
     }
@@ -173,8 +174,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     let matchedProduct = null;
     for (i = 0; i < list-product.length; i++) {
-    var productName = list-product[i].innerText.toLowerCase();
-    if (productName === input) {
+    let productName = list-product[i].innerText.toLowerCase();
+    if (productName === input) { 
       matchedProduct = productName;
       break;
     }
