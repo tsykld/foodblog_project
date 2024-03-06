@@ -163,5 +163,48 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
 
+  function searchProduct(event) {
+    // Tiến hành function bằng nút enter
+    if (event && event.key !== "Enter") {
+      return;
+    }
+    let input = document.getElementById('searchInput').value.toLowerCase();
+    let productList = document.getElementById('list-product');
+
+    let matchedProduct = null;
+    for (i = 0; i < list-product.length; i++) {
+    var productName = list-product[i].innerText.toLowerCase();
+    if (productName === input) {
+      matchedProduct = productName;
+      break;
+    }
+  }
+  renderMatchedProduct(matchedProduct);
+}
+
+function renderMatchedProduct(product) {
   
-  
+  let matchedProductList = document.getElementById('matchedProductList');
+  let productList = document.getElementById('list-product');
+
+  // giấu sản phẩm ban đầu
+  productList.classList.add('hidden');
+
+  // cho ra sản phẩm tìm được
+  matchedProductList.classList.remove('hidden');
+
+  // xóa tìm kiếm ban đầu
+  matchedProductList.innerHTML = '';
+
+  if (product) {
+    // nếu có sản phẩm sẽ xuất ra sản phẩm mới
+    let listItem = document.createElement('div');
+    listItem.innerText = product;
+    matchedProductList.appendChild(listItem);
+  } else {
+    // không tìm được sản phẩm sẽ thông báo
+    let noMatchedItem = document.createElement('li');
+    noMatchedItem.innerText = 'Product not found.';
+    matchedProductList.appendChild(noMatchedItem);
+  }
+}
