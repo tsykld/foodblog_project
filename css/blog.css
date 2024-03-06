@@ -468,10 +468,15 @@ input:focus {
         flex-direction: column;
         text-align: center;
     }
-    .link-footer.container a {
+    .link-footer.container.d-flex a {
         margin-bottom: 20px;
     }
+    .d-flex.container.justify-content-center.link-footer.link-footer2 {
+        display: flex;
+        flex-direction: row;
+    }
 }
+
 
 @media screen and (max-width: 600px) {
     .card-custom .list-tag span {
