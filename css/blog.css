@@ -63,6 +63,7 @@ a:hover {
     box-shadow: none;
     width: 240px;
     height: 50px;
+    font-family: "Playfair Display", serif;
 }
 
 .navbar {
@@ -93,6 +94,7 @@ a:hover {
     margin: 30px auto 20px auto;
     padding: 14px 30px 14px 16px;
     border-radius: 0;
+    font-family: "Playfair Display", serif;
 }
 
 input:focus {
@@ -451,6 +453,24 @@ input:focus {
         justify-content: center;
         margin-bottom: 10px;
     }
+    .foot {
+        display: flex;
+        flex-direction: column;
+    }
+    .foot .d-flex {
+        margin-bottom: 30px;
+    }
+    .foot img {
+        margin-bottom: 30px;
+    }
+    .link-footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .link-footer.container a {
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -463,8 +483,8 @@ input:focus {
 }
 .page a {
     margin-right: 10px;
-    font-weight: 500;
-    font-size: 25px;
+    font-weight: 350;
+    font-size: 20px;
 }
 footer {
     background-color: rgb(243, 239, 233);
@@ -475,8 +495,7 @@ footer img {
     height: 100px;
 }
 .container p {
-    
-    font-weight: 700;
+    font-weight: 500;
     font-size: 20px;
 }
 .container .d-flex i {
@@ -485,6 +504,7 @@ footer img {
 .container .d-flex div {
     margin-right: 20px;
     font-size: 20px;
+    font-weight: 200;
 }
 .foot {
     border-bottom: 2px solid black;
@@ -496,9 +516,6 @@ footer img {
     text-decoration: none;
     margin:auto 25px;
 }
-/* .d-flex.container div {
-    margin-right: 30px;
-} */
 #subscribeButton {
     border-radius: 70px;
     width: 60px;
