@@ -1,0 +1,57 @@
+{
+    "filters": [
+        {
+            "name": "SEASON",
+            "option": [
+                "Fall",
+                "Spring",
+                "Summer",
+                "Winter"
+            ]
+        },
+        {
+            "name": "SPECIAL DIET",
+            "option": [
+                "Dairy-Free",
+                "Soy-Free",
+                "Egg-Free",
+                "Gluten Free",
+                "Sugar-Free",
+                "Vegan"
+            ]
+        },
+        {
+            "name": "CUISINE",
+            "option": [
+                "Asian-Inspired",
+                "Chinese-Inspired",
+                "Japanese-Inspired",
+                "Italian-Inspired",
+                "Indian-Inspired"
+            ]
+        },
+        {
+            "name": "RECIPE TYPE",
+            "option": [
+                "Appetizer",
+                "Beverage",
+                "Breakfast",
+                "Entree",
+                "Savory",
+                "Main Course",
+                "Smoothie",
+                "Snacks",
+                "Dessert"
+            ]
+        },
+        {
+            "name": "SIMPLE FACTOR",
+            "option": [
+                "10 minutes or less",
+                "15 minutes or less",
+                "30 minutes or less",
+                "7 ingredients or less"
+            ]
+        }
+    ]
+}

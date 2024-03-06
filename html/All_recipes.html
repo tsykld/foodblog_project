@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minimalist Baker Recipes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="../css/blog.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="top">
+        <form role="search">
+          <input class="searchbar form-control" type="search" placeholder="Search Minimalist Baker" aria-label="Search">
+        </form>
+        <div class="info">
+          <i class="fa-brands fa-facebook"><a href="https://www.facebook.com/MinimalistBaker" target="_blank"></a></i>
+          <i class="fa-brands fa-square-instagram fa-lg"><a href="https://www.instagram.com/minimalistbaker/"
+              target="_blank"></a></i>
+          <i class="fa-brands fa-pinterest fa-lg"></i><a href="https://www.pinterest.com/minimalistbaker/"
+              target="_blank"></a></i>
+          <i class="fa-brands fa-youtube fa-lg"><a href="https://www.youtube.com/c/Minimalistbaker" target="_blank"></a></i>
+        </div>
+      </div>
+
+    </div>
+
+  </header>
+  <div></div>
+  <nav class="navbar navbar-expand-lg container">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse custom-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-between">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./All_recipes.html">All
+              Recipes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Vegan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+              href="#">Gluten-Free</a>
+          </li>
+          <li class="nav-item logo">
+            <a class="nav-link" aria-current="page" href="#"><img
+                src="https://minimalistbaker.com/wp-content/themes/mb-2020/assets/images/logo.png" alt="" style="padding-left: 40px;"></a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blogger Resources</a>
+          </li>
+         
+        </ul>
+      </div>
+      <a class="nav-link sp-logo" aria-current="page" href="#"><img
+          src="https://minimalistbaker.com/wp-content/themes/mb-2020/assets/images/logo.png" alt="logo"></a>
+      <i class="fa-solid fa-magnifying-glass search-sp"></i>
+    </div>
+  </nav>
+  <main>
+    <div class="container text-center mt-5">
+      <div class="main-section">
+        <div class="block-left">
+          <img class="logo2" src="../asset/logo2.png">
+          <p><b>Simple Recipes That <br class="pc-only" />Make You Feel Good</b></p>
+        </div>
+        <div class="block-search">
+          <h2>ALL RECIPES</h2>
+          <div class="wrap-search">
+            <form class=" d-flex mt-4 mb-3 form-search-main" role="search">
+              <input class="search form-control" type="search" placeholder="SEARCH MINIMALIST BAKER"
+                aria-label="Search">
+            </form>
+            <p class="label-filter" style="margin-bottom: 37px; font-weight: 400;">FILTERS</p>
+            <div class="list-filter row g-3 justify-content-center" id="list-filter">
+              <div class="wrap-filter col-6 col-lg-3">
+                <h4>SORTING</h4>
+                <select class="menu js-select-options menu-sort">
+                  <option value="">Sort by</option>
+                  <option value="A-Z">Title(A-Z)</option>
+                  <option value="Z-A">Title(Z-A)</option>
+                </select>
+              </div>
+              <div class="wrap-filter col-6 col-lg-3">
+                <h4>RESET</h4>
+                <a href="#" id="clear-all" style="font-weight: lighter;">CLEAR ALL</a>
+              </div>
+            </div>
+          </div>
+
+        
+          <div class="list-product mt-3 row gx-2 gy-4" id="list-product"></div>
+        </div>
+        <div class="page">
+          <a class="page-first first active" href="#" style="text-decoration: none;">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <a class="dots" href="#">...</a>
+          <a class="last" href="#">84</a>
+          <a class="page-next" href="#">>></a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="d-flex container foot" style="justify-content: space-between; padding: 30px 0; background-color: rgb(243, 239, 233); align-items: center;">
+      <div class="d-flex" style="align-items:center;">
+          <div>FIND US</div>
+          <i class="fa-brands fa-facebook" style="margin-bottom: 5px;"><a href="https://www.facebook.com/MinimalistBaker" target="_blank"></a></i>
+          <i class="fa-brands fa-square-instagram fa-lg"><a href="https://www.instagram.com/minimalistbaker/"
+              target="_blank"></a></i>
+          <i class="fa-brands fa-pinterest fa-lg"></i><a href="https://www.pinterest.com/minimalistbaker/"
+              target="_blank"></a></i>
+          <i class="fa-brands fa-youtube fa-lg"><a href="https://www.youtube.com/c/Minimalistbaker" target="_blank"></a></i>
+      </div>
+      <img src="../asset/logo2.png" alt="">
+      <p>Simple Recipes That <br> Make You Feel Good</p>
+    </div>
+    <div class="d-flex container justify-content-center link-footer" style="margin: 30px auto;">
+      <a href="#">Recipes</a>
+      <a href="#">Cookbook</a>
+      <a href="#">Shop</a>
+      <a href="#">About</a>
+    </div>
+    <div class="d-flex container justify-content-center link-footer" style="margin-bottom: 30px;">
+      <div style="font-size: 15px;">©MINIMALISTBAKER.COM</div>
+      <a style="font-size: 15px;" href="#">PRIVACY POLICY</a>
+      <a style="font-size: 15px;" href="#">TERMS</a>
+    </div>
+  </footer>
+  <div class="button">
+    <button id="subscribeButton"><i class="fa-solid fa-bell"></i></button>
+  </div>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+  <script src="../js/blog.js"></script>
+</body>
+
+</html>

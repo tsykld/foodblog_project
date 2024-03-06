@@ -1,0 +1,236 @@
+{
+    "products": [
+        {
+            "name": "Spicy Garlicky Sesame Tofu (30 Minutes!)",
+            "filterTag": [
+                "Fall",
+                "Gluten-Free", 
+                "Sugar-Free",
+                "Vegan",
+                "Savoury",
+                "Main Course",
+                "Chinese-Inspired",
+                "Entree",
+                "30 minutes or less"
+            ],
+            "image": "https://minimalistbaker.com/wp-content/uploads/2023/12/Spicy-Garlicky-Sticky-Baked-Sesame-Tofu-10-768x1153.jpg"
+        },
+        {
+            "name": "Sesame Sautéed Swiss Chard",
+            "filterTag": [
+                "Summer",
+                "Gluten-Free", 
+                "Vegan",
+                "Appetizer",
+                "Asian-Inspired",
+                "15 minutes or less"
+            ],
+            "image": "https://minimalistbaker.com/wp-content/uploads/2023/10/Sesame-Sauteed-Swiss-Chard-Greens-Recipe-5-768x1152.jpg"
+        },
+        {
+            "name": "Fudgy Crackly Top Brownies (Vegan + GF)",
+            "filterTag": [
+                "Summer",
+                "Gluten-Free", 
+                "Vegan",
+                "Dessert",
+                "Snacks"    
+            ],
+            "image": "https://minimalistbaker.com/wp-content/uploads/2023/11/Fudgy-Crackly-Top-Brownies-Vegan-Gluten-Free-7-768x1152.jpg"
+        },
+        {
+            "name": "Vegan Chili Cheese Fries",
+            "filterTag": [
+                "Summer",
+                "Savory",
+                "Soy-Free",
+                "Entree",
+                "Gluten-Free", 
+                "Vegan"
+            ],
+            "image": "https://minimalistbaker.com/wp-content/uploads/2023/05/Vegan-Chili-Cheese-Fries-9-768x1152.jpg"
+        },
+        {
+            "name": "1-Bowl Banana Buckwheat Muffins (Vegan + GF)",
+            "filterTag": [
+                "Summer", "Winter", "Spring", "Fall",
+                "7 ingredients or less",
+                "Dessert", 
+                "Soy-Free",
+                "Sugar-Free",
+                "Breakfast", 
+                "Snacks"
+            ],
+            "image": "https://minimalistbaker.com/wp-content/uploads/2023/11/Vegan-Gluten-Free-Banana-Buckwheat-Muffins-8-768x1152.jpg"
+        },
+        {
+            "name": "Sparkling Cherry Limeade (Naturally Sweetened)",
+            "filterTag": [
+                "Spring", "Summer",
+                "10 minutes or less",
+                "Beverage"              
+            ],
+            "image": "https://minimalistbaker.com/wp-content/uploads/2023/05/Sparkling-Cherry-Limeade-7-1024x1536.jpg"
+        },
+        {
+            "name": "Warming 1-Pot Chickpea Curry (Vindaloo-Inspired)",
+            "filterTag": [
+                "Main Course",
+                "Gluten-Free",
+                "Indian-Inspired",
+                "Entree",
+                "Savory"
+            ],
+            "image": "https://minimalistbaker.com/wp-content/uploads/2023/10/Warming-1-Pot-Vegan-Chickpea-Curry-Vindaloo-6.jpg"
+        },
+        {
+            "name": "Pumpkin Spice Matcha Latte (4 Ingredients!)",
+            "filterTag": [
+                "Fall", "Winter",
+                "Gluten-Free", "Dairy-Free",
+                "10 minutes or less",
+                "7 ingredients or less",
+                "Japanese-Inspired"
+            ],
+            "image": "https://minimalistbaker.com/wp-content/uploads/2022/06/CREAMY-Pumpkin-Spice-Matcha-Latte-Dairy-free-5-minutes-4-ingredients-hot-or-cold-PERFECTION-minimalistbaker-recipe-pumpkinspice-matcha-7-1024x1536.jpg"
+        },
+        {
+            "name": "Creamy Mayan Mocha (Caffeine-Free Option!)",
+            "filterTag": [
+                "Winter",
+                "Gluten-Free",
+                "Sugar-Free",
+                "Beverage",
+                "15 minutes or less"
+            ],
+            "image": "https://minimalistbaker.com/wp-content/uploads/2023/11/Homemade-Vegan-Mayan-Mocha-4-768x1152.jpg"
+        },
+        {
+            "name": "Epic Vegan Sweet Potato Pie",
+            "filterTag": [
+                "Spring",
+                "Dairy-Free",
+                "Gluten-Free",
+                "Sugar-Free",
+                "Dessert",
+                "Summer",
+                "Winter"
+            ],
+            "image": "https://minimalistbaker.com/wp-content/uploads/2023/09/Epic-Vegan-Gluten-Free-Sweet-Potato-Pie-9-1024x1536.jpg"
+        },
+        {
+            "name": "Super Fluffy Gluten-Free Pancakes (1 Bowl!)",
+            "filterTag": [
+                "Dairy-Free", "Soy-Free",
+                "Breakfast", "Snacks",
+                "30 minutes or less",
+                "7 ingredients or less"
+            ],
+            "image": "https://minimalistbaker.com/wp-content/uploads/2023/09/Super-Fluffy-Gluten-Free-Pancakes-5-1024x1536.jpg"
+        },
+        {
+            "name": "2-Ingredient Piña Colada Smoothie",
+            "filterTag": [
+                "Smoothies",
+                "Summer", "Spring",
+                "10 minutes or less",
+                "7 ingredients or less",
+                "Asian-Inspired",
+                "Beverage"
+            ],
+            "image": "https://minimalistbaker.com/wp-content/uploads/2020/06/CREAMY-Pina-Colada-Smoothie-2-ingredients-no-sugar-added-options-for-boozy-and-virgin-pinacolada-smoothie-plantbased-glutenfree-recipe-minimalistbaker-6-1024x1536.jpg"
+        },
+        {
+            "name": "Strawberry Matcha Chia Pudding",
+            "filterTag": [
+                "Summer", "Spring", "Fall",
+                "30 minutes or less", 
+                "7 ingredients or less", 
+                "Snacks", 
+                "Dessert"
+            ],
+            "image": "https://minimalistbaker.com/wp-content/uploads/2023/03/Strawberry-Matcha-Chia-Pudding-23-1024x1536.jpg"
+        },
+        {
+            "name": "Savory Vegan Breakfast Bowls (Pizza-Inspired!)",
+            "filterTag": [
+                "Appetizer",
+                "Italian-Inspired",
+                "30 minutes or less",
+                "Savory",
+                "Breakfast", "Entree"
+            ],
+            "image": "https://minimalistbaker.com/wp-content/uploads/2023/02/Vegan-breakfast-bowl-7-1024x1536.jpg"
+        },
+        {
+            "name": "Lemon Ginger Jasmine Iced Tea",
+            "filterTag": [
+                "Summer", 
+                "10 minutes or less",
+                "7 ingredients or less",
+                "Chinese-Inspired",
+                "Beverage"
+            ],
+            "image": "https://minimalistbaker.com/wp-content/uploads/2022/06/Iced-Jasmine-Tea-with-Ginger-and-Lemon-Energizing-subtly-sweet-4-ingredients-15-minutes-minimalistbaker-recipe-icedtea-jasminetea-7.jpg"
+        },
+        {
+            "name": "Sun-Dried Tomato & Basil Arancini (Vegan)",
+            "filterTag": [
+                "Savory",
+                "Italian-Inspired",
+                "Gluten-Free",
+                "Main Course", 
+                "Appetizer"
+            ],
+            "image": "https://minimalistbaker.com/wp-content/uploads/2015/09/AMAZING-Sun-dried-Tomato-Basil-Vegan-Arancini-Cauliflower-rice-adds-healthy-fiber.-A-great-side-dish-for-Italian-night-vegan-cauliflowerrice-recipe-healthy.jpg"
+        },
+        {
+            "name": "Super Chunky Chai-Spiced Granola",
+            "filterTag": [
+                "Spring", "Fall", "Summer",
+                "Indian-Inspired",
+                "Gluten-Free",
+                "Vegan",
+                "30 minutes or less",
+                "Breakfast", "Snacks"
+            ],
+            "image": "https://minimalistbaker.com/wp-content/uploads/2022/06/Super-CHUNKY-Chai-Spiced-Granola-Gluten-free-vegan-10-ingredients-sweet-AND-spicy-minimalistbaker-recipe-plantbased-chai-granola-10.jpg"
+        },
+        {
+            "name": "Golden Matcha Latte (2 Ways!)",
+            "filterTag": [
+                "Fall", "Winter",
+                "10 minutes or less",
+                "Beverage",
+                "Japanese-Inspired",
+                "Indian-Inspired",
+                "Gluten-Free",
+                "7 ingredients or less"
+            ],
+            "image": "https://minimalistbaker.com/wp-content/uploads/2021/10/GOLDEN-MATCHA-Latte-Creamy-plant-based-and-just-1-blender-7-ingredients-10-minutes-required-minimalistbaker-recipe-plantbased-dairyfree-matcha-goldenmilk-6.jpg"
+        },
+        {
+            "name": "Spicy Watermelon Salad (True Food-Inspired!)",
+            "filterTag": [
+                "30 minutes or less",
+                "Entree",
+                "Vegan",
+                "Snacks",
+                "Summer",
+                "Appetizer",
+                "7 ingredients or less"
+            ],
+            "image": "https://minimalistbaker.com/wp-content/uploads/2023/05/Spicy-Watermelon-Salad-5.jpg"
+        },
+        {
+            "name": "Easy Green Juice Recipe + Juicing Tips",
+            "filterTag": [
+                "30 minutes or less",
+                "Spring", "Summer", "Fall",
+                "Beverage",
+                "7 ingredients or less"
+            ],
+            "image": "https://minimalistbaker.com/wp-content/uploads/2019/11/EASY-Green-Juice-7-ingredients-tart-sweet-PACKED-with-greens-plantbased-glutenfree-minimalistbaker-juice-greenjuice-recipe-59.jpg"
+        }
+    ]
+}
