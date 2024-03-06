@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Minimalist Baker Recipes</title>
+  <link rel="icon" type="image/x-icon" href="../asset/logo2.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
@@ -24,7 +25,7 @@
     <div class="container">
       <div class="top">
         <form role="search">
-          <input class="searchbar form-control" type="search" placeholder="Search Minimalist Baker" aria-label="Search">
+          <input class="searchbar form-control" type="search" placeholder="Search Minimalist Baker" aria-label="Search" id="searchInput">
         </form>
         <div class="info">
           <i class="fa-brands fa-facebook"><a href="https://www.facebook.com/MinimalistBaker" target="_blank"></a></i>
@@ -39,7 +40,7 @@
     </div>
 
   </header>
-  <div></div>
+  
   <nav class="navbar navbar-expand-lg container">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -91,7 +92,7 @@
           <h2>ALL RECIPES</h2>
           <div class="wrap-search">
             <form class=" d-flex mt-4 mb-3 form-search-main" role="search">
-              <input class="search form-control" type="search" placeholder="SEARCH MINIMALIST BAKER"
+              <input class="search form-control" id="searchInput" type="search" placeholder="SEARCH MINIMALIST BAKER"
                 aria-label="Search">
             </form>
             <p class="label-filter" style="margin-bottom: 37px; font-weight: 400;">FILTERS</p>
@@ -113,6 +114,7 @@
 
         
           <div class="list-product mt-3 row gx-2 gy-4" id="list-product"></div>
+          <div></div>
         </div>
         <div class="page">
           <a class="page-first first active" href="#" style="text-decoration: none;">1</a>
@@ -138,7 +140,7 @@
               target="_blank"></a></i>
           <i class="fa-brands fa-youtube fa-lg"><a href="https://www.youtube.com/c/Minimalistbaker" target="_blank"></a></i>
       </div>
-      <img src="../asset/logo2.png" alt="">
+      <img src="../logo2.png" alt="">
       <p>Simple Recipes That <br class="pc-only"> Make You Feel Good</p>
     </div>
     <div class="d-flex container justify-content-center link-footer" style="margin-top:30px;">
