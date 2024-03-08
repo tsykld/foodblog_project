@@ -96,11 +96,16 @@ let listProductHtml = document.getElementById('list-product');
                 //reset checked
                 option.checked = false;
 
-                // thay đổi label của filter thành 'ALL'
+                // thay đổi label của filter thành 'Any'
                 let optionMenu = option.closest('.js-select-options');
                 let label = optionMenu.previousElementSibling;
-                label.dataset.label = 'ALL';
+                label.dataset.label = 'Any';
 
+                document.getElementById('sort-select').value = '';
+
+                // Đặt lại label của sorting về 'Sort by'
+                let sortLabel = document.querySelector('.menu-sort option[value=""]');
+                sortLabel.selected = true;
 
                 // đóng tất cả các filter nếu đang mở
                 let flagFilter = label.previousElementSibling;
@@ -145,6 +150,36 @@ function renderHTML(list) {
         });
     } else listProductHtml.innerHTML = `<div class="empty-data">NO DATA</div>`
 }
+
+      // Hàm để sắp xếp sản phẩm theo tên (A-Z)
+        function sortByNameAZ(products) {
+  return products.slice().sort((a, b) => a.name.localeCompare(b.name));
+      }
+
+      // Hàm để sắp xếp sản phẩm theo tên (Z-A)
+        function sortByNameZA(products) {
+  return products.slice().sort((a, b) => b.name.localeCompare(a.name));
+      }
+
+        document.getElementById('sort-select').addEventListener('change', function () {
+  const selectedOption = this.value;
+  let sortedProducts = [];
+
+  switch (selectedOption) {
+      case 'A-Z':
+          sortedProducts = sortByNameAZ(dataProduct.products);
+          break;
+      case 'Z-A':
+          sortedProducts = sortByNameZA(dataProduct.products);
+          break;
+      default:
+          sortedProducts = dataProduct.products;
+          break;
+  }
+
+  renderHTML(sortedProducts);
+      });
+
 
 document.addEventListener('DOMContentLoaded', function() {
     const subscribeButton = document.getElementById('subscribeButton');
