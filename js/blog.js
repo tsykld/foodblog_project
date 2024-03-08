@@ -198,3 +198,9 @@ document.addEventListener('DOMContentLoaded', function() {
       location.reload(); // Tải lại trang khi nội dung trống
     }
   });
+
+  document.getElementById('searchInput').addEventListener('input', function() {
+    if (this.value === '') {
+      location.reload(); // Tải lại trang khi nội dung trống
+    }
+  });
