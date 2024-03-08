@@ -24,8 +24,11 @@
   <header>
     <div class="container">
       <div class="top">
-        <form role="search">
-          <input class="searchbar form-control" type="search" placeholder="Search Minimalist Baker" aria-label="Search" id="searchInput">
+        <form role="search" onsubmit="searchProduct(event)">
+          <div class="search-container"> 
+            <i class="fa-solid fa-magnifying-glass fa-flip-horizontal search-icon"></i>        
+            <input class="searchbar form-control" type="search" placeholder="Search Minimalist Baker" aria-label="Search" id="searchInput">
+          </div>
         </form>
         <div class="info">
           <i class="fa-brands fa-facebook"><a href="https://www.facebook.com/MinimalistBaker" target="_blank"></a></i>
@@ -91,9 +94,12 @@
         <div class="block-search">
           <h2>ALL RECIPES</h2>
           <div class="wrap-search">
-            <form class=" d-flex mt-4 mb-3 form-search-main" role="search">
-              <input class="search form-control" id="searchInput" type="search" placeholder="SEARCH MINIMALIST BAKER"
-                aria-label="Search">
+            <form class=" d-flex mt-4 mb-3 form-search-main" role="search" onsubmit="searchMainProduct(event)">
+              <div class="search-container2">
+                <input class="search form-control" id="mainSearchInput" type="search" placeholder="SEARCH MINIMALIST BAKER"
+                aria-label="Search" oninput="handleInput()">
+                <i class="fa-solid fa-magnifying-glass search-icon2" id="searchIcon"></i>
+              </div>
             </form>
             <p class="label-filter" style="margin-bottom: 37px; font-weight: 400;">FILTERS</p>
             <div class="list-filter row g-3 justify-content-center" id="list-filter">
@@ -114,7 +120,7 @@
 
         
           <div class="list-product mt-3 row gx-2 gy-4" id="list-product"></div>
-          <div id="matchedProductList" class="hidden" style="display: none;"></div>
+          
         </div>
         <div class="page">
           <a class="page-first first active" href="#" style="text-decoration: none;">1</a>
