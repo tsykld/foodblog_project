@@ -31,7 +31,7 @@ let listProductHtml = document.getElementById('list-product');
             </li>`
             listOptionHtml += optionItem;
         });
-
+      
         let blockFilter = `<div class="wrap-filter col-6 col-lg-3 ${item.name}">
         <h4>${item.name}</h4>
         <div class="select-menu js-select-menu">
@@ -99,7 +99,7 @@ let listProductHtml = document.getElementById('list-product');
                 // thay đổi label của filter thành 'ALL'
                 let optionMenu = option.closest('.js-select-options');
                 let label = optionMenu.previousElementSibling;
-                label.dataset.label = 'Any';
+                label.dataset.label = 'ALL';
 
 
                 // đóng tất cả các filter nếu đang mở
@@ -110,6 +110,7 @@ let listProductHtml = document.getElementById('list-product');
                 renderHTML(dataProduct.products);
             });
         });
+        
     })
 
 }))();
@@ -120,7 +121,6 @@ let listProductHtml = document.getElementById('list-product');
     renderHTML(dataProduct.products);
 
 }))();
-
 
 function renderHTML(list) {
     //reset list data trước khi render mới
